@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1598300056679-99f397f445e4');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+  }
+  
+  .container {
+    background-color: rgba(84, 69, 69, 0.6);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  header img {
+    height: 40px;
+  }
+  
+  main {
+    flex: 1;
+    background-image: url(bike\ ride.jpg);
+    color: black;
+    text-align: center;
+    height: 40vh;
+  }
+  
+  footer {
+    text-align: center;
+    padding-top: 1px;
+    line-height: normal;
+    height: 25vh;
+  }
